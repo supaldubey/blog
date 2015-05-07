@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!DOCTYPE viewMappings [
+<!ELEMENT viewMapping (sourcePage, destinationPage)* >
+<!ELEMENT sourcePage (#PCDATA)>
+<!ELEMENT destinationPage (#PCDATA)>
+]>
+<viewMappings>
+	<viewMapping>
+		<sourcePage>pranam</sourcePage>
+		<destinationPage>index</destinationPage>
+	</viewMapping>
+	<viewMapping>
+		<sourcePage>namaste</sourcePage>
+		<destinationPage>hello</destinationPage>
+	</viewMapping>
+</viewMappings> 
